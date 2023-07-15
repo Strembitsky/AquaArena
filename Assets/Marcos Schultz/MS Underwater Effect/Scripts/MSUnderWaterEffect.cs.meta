@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2cd7987c88867264a8210f93a54101c0
+timeCreated: 1554351083
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - waterDropsTexture: {fileID: 2800000, guid: 1224211413c8e474f964b1b80eff6485, type: 3}
+  - soundToEnter: {fileID: 8300000, guid: 75ee3b2221105fc4593c02b43b961903, type: 3}
+  - soundToExit: {fileID: 8300000, guid: e26bf7224d5e945498c4d609586ef978, type: 3}
+  - underWaterSound: {fileID: 8300000, guid: 26bf85987c189034b8a79b2c4f808415, type: 3}
+  - SrBlur: {fileID: 4800000, guid: e560ca3a2014913459609887285bc03f, type: 3}
+  - SrEdge: {fileID: 4800000, guid: 5d140e9ca54cfe84884d6edb09b222cc, type: 3}
+  - SrFisheye: {fileID: 4800000, guid: 2d043023582f82f4a9265e82dd19c270, type: 3}
+  - SrVortex: {fileID: 4800000, guid: ab19d27e28c6798468082a1b08f2b4a5, type: 3}
+  - SrQuad: {fileID: 4800000, guid: 268eb504cabe0514d9e0d052118fce2d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

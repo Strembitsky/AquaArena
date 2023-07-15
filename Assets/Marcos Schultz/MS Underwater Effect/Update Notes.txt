@@ -1,0 +1,73 @@
+...............[Version 1.0.0]...............
+- New Asset
+.............................................
+
+
+
+...............[Version 2.0.0]...............
+- The documentation has been completely redone.
+- New scenario for the sample scene.
+- Bugs corrected in relation to the "near" the camera.
+- GUI has been removed.
+- Bugs fixed when there are no sounds associated with the variables.
+- The code was redone to support multiple water objects simultaneously.
+- Several improvements were made in relation to performance.
+.............................................
+
+
+
+...............[Version 2.1.0]...............
+- The documentation has been updated.
+- Some bugs have been fixed.
+- The 'OnValidate' function has been added to help you create new elements and make it easier to use the asset.
+- The control of the variation of effects was greatly improved. Now the effects are much more diverse and realistic.
+- The properties of the effects have been simplified and improved for ease of use.
+.............................................
+
+
+
+...............[Version 2.3.1]...............
+- All textures have been updated to PNG format.
+- Improvements were made to the "OnValidate" function to avoid null values in variables.
+- It is now possible to define the "Water" object by name or by tag, to facilitate the creation of several water objects.
+- A new function called 'EnableWater' was created, allowing to activate or deactivate the effect without the need to use "OnTriggerEnter". To do this, just call the function, and enter the parameters "enable" and "WaterID".
+- It is now possible to define whether the effect will start already activated or not, thus allowing the player to start in the water for example.
+- The water and camera prefabs have been redone and improved.
+- A public query-only variable (MSUnderWaterEffect.UnderWater) was created to let you know if the player has the effect activated or not.
+- A new "Caustics" effect has been added to the product. The effect works, but it is in Beta, so it may not be suitable for all situations.
+- Now the minimum version of Unity for this feature is 2018.1.9f2
+.............................................
+
+
+
+...............[Version 2.3.4]...............
+- The code that controls the player has been improved.
+- The 'Queue' of the SrQuad shader has been changed from 'Transparent' to 'Overlay'. In this way, the rendering queue goes from 3000 to 4000. Documentation: https://docs.unity3d.com/Manual/SL-SubShaderTags.html
+- The commands "ZWrite Off" and "ZTest Always" were added to the SrQuad shader, to avoid some problems with transparent objects. Documentation: https://docs.unity3d.com/Manual/SL-CullAndDepth.html
+- The tag "IgnoreProjector" = "True" was added to the SrQuad shader, so that the objects rendered by it are not affected by projectors, thus avoiding problems with the water Caustics.
+.............................................
+
+
+
+...............[Version 2.3.6]...............
+- It is now possible to remove the 'Rigidbody' and 'SphereCollider' components if the water detection type does not require these components.
+- It is now possible to detect the water surface by means of collision, raycast or a fixed height value.
+- The query variable 'UnderWater' has been changed to 'underWater'.
+- Several improvements have been made regarding the OnValidate function.
+- The minimum Unity Engine version for this asset is 2018.4.23f1
+- The documentation has been updated.
+.............................................
+
+
+
+...............[Version 2.3.7]...............
+- A slider bar has been added, which allows you to adjust the volume of sounds that are played by the system.
+- The maximum viewing distance limit under water has been increased, allowing you to better configure comprehensive scenes.
+.............................................
+
+
+
+...............[Version 2.3.8]...............
+- It is now possible to disable the blur effect completely.
+- Some minor bugs have been fixed.
+.............................................
